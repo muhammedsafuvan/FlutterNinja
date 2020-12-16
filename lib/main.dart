@@ -10,7 +10,7 @@ class NinjaCard extends StatefulWidget {
 }
 
 class _NinjaCardState extends State<NinjaCard> {
-  int ninjaLevel = 1;
+  int ninjaLevel = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
